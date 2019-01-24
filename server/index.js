@@ -15,6 +15,8 @@ massive(CONNECTION_STRING).then(db => {
     console.log('connected')
 })
 
+app.use( express.static(`${__dirname}/../build`) )
+
 // app.use(session({
 //     secret: SESSION_SECRET,
 //     resave: true,
