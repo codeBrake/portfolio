@@ -9,7 +9,7 @@ class Header extends Component{
         return(
             <div className="Header">
                 <div className="header-name">
-                    <h1 id="title">Austin Brake</h1>
+                    <h1 id="title">AB</h1>
 
                 </div>
                 <div className="header-links">

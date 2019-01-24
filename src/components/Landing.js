@@ -129,14 +129,17 @@ class Landing extends Component{
                                         <a href="https://github.com/codeBrake/personal-project" target="_blank" rel="noopener noreferrer" className="project-links"><p id="one-1">https://github.com/codeBrake/personal-project</p></a>
                                     </div>
                                     
-                                    <div className="project-description"> 
-                                        <li className="list">Full-stack ecommerce site built with React</li>
-                                        <li className="list">Backend runs Node, using massive and express</li>
-                                        <li className="list">HTML and CSS integrated for styling</li>
-                                        <li className="list">Wire-framed project, mobile responsive</li>
-                                        <li className="list">Foreign keys and JOIN statements</li>
-                                        <li className="list">Axios to define API endpoints with full CRUD</li>
-                                        <li className="list">Implementing stripe for user checkout</li>
+                                    <div className="project-description">
+                                        <div className="inner-proj-description">
+                                        
+                                            <li className="list">Full-stack ecommerce site built with React</li>
+                                            <li className="list">Backend runs Node, using massive and express</li>
+                                            <li className="list">HTML and CSS integrated for styling</li>
+                                            <li className="list">Wire-framed project, mobile responsive</li>
+                                            <li className="list">Foreign keys and JOIN statements</li>
+                                            <li className="list">Axios to define API endpoints with full CRUD</li>
+                                            <li className="list">Implementing stripe for user checkout</li>
+                                        </div> 
 
                                     </div> 
 
@@ -164,6 +167,7 @@ class Landing extends Component{
 
                                 </div>
                                 <div className="project-description"> 
+                                    <div className="inner-proj-description">
                                         <li className="list">Full-stack fitness app</li>
                                         <li className="list">Track calories and meet personal fitness goals</li>
                                         <li className="list">Backend runs Node, using massive and express</li>
@@ -171,7 +175,9 @@ class Landing extends Component{
                                         <li className="list">Wire-framed project, mobile responsive</li>
                                         <li className="list">Axios to define API endpoints with full CRUD</li>
 
-                                    </div> 
+                                    </div>
+
+                                </div> 
                                 
 
                             </div>
@@ -207,7 +213,10 @@ class Landing extends Component{
                                 <h1 id="two">About me</h1>
                                 <hr id="under-about"></hr>
                             </div>   
-                            <p id="three">I'm the type of guy who rellies on a fast-paced environment to keep me balanced and is always eager to tackle obstacles head on. Was raised to believe that hardwork pays off, that if you work hard enough you can accomplish anything. I am a former professional sales representive commited to giving any client the expectation they deserve. I use that dedication in every aspect of my life, and understand what it takes to achieve goals. Outside of the office, I'm an experienced snowboarder, father, and mountain enthusiast.</p>
+                            <div className="paragraph">
+                                <p id="three">Hi, my name is Austin Brake. I'm the type of guy who rellies on a fast-paced environment to keep me balanced and is always eager to tackle obstacles head on. Was raised to believe that hardwork pays off, that if you work hard enough you can accomplish anything. I am a former professional sales representive commited to giving any client the expectation they deserve. I use that dedication in every aspect of my life, and understand what it takes to achieve goals. Outside of the office, I'm an experienced snowboarder, father, and mountain enthusiast.</p>
+
+                            </div>
                         
                         </div>
                         <div className="aboutme"> 
@@ -224,7 +233,7 @@ class Landing extends Component{
                                 <h1 id="two">Get in touch</h1>
                                 <hr id="section-under"></hr>
                                 <br></br>
-                                <p>Whether your a small business owner or CEO of a multi-billion dollar empire, Im allways up for a challenge and willing to help someone in need. Never hesitate to contact me!</p>
+                                <p>Whether your a small business owner or CEO of a multi-billion dollar empire, Im always up for a challenge and willing to help someone in need. Never hesitate to contact me!</p>
 
                             </div>
                             <div className="input-div">
