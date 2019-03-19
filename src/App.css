@@ -32,7 +32,7 @@
   padding-top: 20px;
   justify-content: space-evenly;
   flex-direction: column;
-  font-family: 'Rock Salt', cursive;
+  /* font-family: 'Rock Salt', cursive; */
   align-content: center;
   
   
@@ -408,7 +408,7 @@
 }
 
 #title{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 5px;
   
