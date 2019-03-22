@@ -4,6 +4,8 @@ import 'font-awesome/css/font-awesome.min.css';
 
 
 
+
+
 class Header extends Component{
     render(){
         return(
@@ -13,10 +15,10 @@ class Header extends Component{
 
                 </div>
                 <div className="header-links">
-                    {/* <Link to="/" className="header-routes"><p id="one">home</p></Link>
-                    <Link to="/projects" className="header-routes"><p id="one">projects</p></Link>
-                    <Link to="/about" className="header-routes"><p id="one">about me</p></Link>
-                    <Link to="/contact" className="header-routes"><p id="one">contact</p></Link> */}
+                    
+                    <a href='#landing2' className="header-routes"> <p id="one">projects</p> </a>
+                    <a href='#landing3' className="header-routes"> <p id="one">about me</p> </a>
+                    <a href='#landing4' className="header-routes"> <p id="one">contact</p> </a>
                     
                     
 
