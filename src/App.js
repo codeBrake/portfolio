@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import Landing from './components/Landing'
 
 
-import {Switch, Route} from 'react-router-dom'
+
 import {HashRouter} from 'react-router-dom'
 
 class App extends Component {
